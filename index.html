@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+         <!--local css file-->
+         <link rel="stylesheet" href="index.css">
+
+         <!--link for symbols-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <!--link for symbols-->
+        <script src="index.js" defer></script>
+
+
+
+
+
+    </head>
+    <body>
+        <div class="main_page" id="main_page">
+        <nav>
+            <ul class="nav">
+                <li class="nav_item" id="nav1"><img  alt="logo" src="https://media.istockphoto.com/vectors/vegetables-on-shopping-cart-trolley-grocery-logo-icon-design-vector-vector-id1205419959?k=20&m=1205419959&s=612x612&w=0&h=F4gyp5wuFkCaZr00OQS8KPCSE1_4pHmFiOIM2TQlOPI="></li>
+                <li class="nav_item" id="nav2"><a href="#home">Home</a></li>
+                <li class="nav_item" id="nav3"><a href="#menu">categories</a></li>
+                <li class="nav_item" id="nav4"><a href="#">contact</a></li>
+                <li class="nav_item" id="nav5"><a  href="#" onclick="opencart()">cart</a></li>
+                <li class="nav_item" id="nav6"></li>
+                    <form>
+                        <input type="search" class="sarch_bar" placeholder="search here...">
+                        <button class="fa fa-search"></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+
+
+       
+        
+
+
+
+        <div class="home" id="home">
+            <img  class="home_img" src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,w_730/k%2FPhoto%2FSeries%2F2019-10--power-hour-instant-pot%2FPower-Hour-Instant-Pot_001-rotated">
+        </div>
+        <div class="offers" >
+            <img src="https://pbs.twimg.com/media/DjvwvpTXsAAsqdl.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1pZj0WBGLTweOB1GA8kXutumQKP7IAzjzA&usqp=CAU">
+
+        </div>
+        <ul class="menu" id="menu">
+           <li class="mi" id="m1"><a href="#fruits_section" >fruits</a></li>
+           <li class="mi" id="m2"><a href="#vegetables_section">vegetables</a></li>
+           <li class="mi" id="m3"><a href="#dairy_section">dairy products</a></li>
+           <li class="mi" id="m4"><a href="#packaged_section">package items</a></li>
+        </ul>
+
+       <div class="fruits-heading">
+           <h1 >FRUITS</h1>
+       </div>
+       <div class="fruits" id="fruits_section">
+           <div class="fi" id="f1" >
+               <img src="https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834">
+               <h4>APPLE</h3>
+               <h4>price:120/kg</h4>
+               <h4>Quantity: 1kg</h4>
+               <label for="apple"><h4>quantity</h4></label>
+               <input name="apple" type="number" min="0" id="fr1">
+           </div>
+           <div class="fi" id="f2">
+                <img src="https://media.istockphoto.com/photos/green-grape-isolated-on-white-background-picture-id489520104?k=20&m=489520104&s=612x612&w=0&h=n1_B8jn9fb4dQibPhkXftNpjKA4Rvrjp_ttgj6sq5jY=">
+                <h4>GRAPES</h3>
+                <h4>price:60/kg</h4>
+                <h4>Quantity: 1kg</h4>
+                <label for="grapes"><h4>quantity</h4></label>
+               <input name="grapes" type="number" min="0" id="fr2">
+           </div>
+           <div class="fi" id="f3">
+                <img src="https://media.istockphoto.com/photos/banana-picture-id1184345169?k=20&m=1184345169&s=612x612&w=0&h=EKwCw7Zx20N3l8G_rQI6KcitWTQ5ahkgmEBr2QA1FMk=">
+                <h4>BANANA</h3>
+                <h4>price:35/kg</h4>
+                <h4>Quantity: 1kg</h4>
+                <label for="banana"><h4>quantity</h4></label>
+               <input name="banana" type="number" min="0" id="fr3">
+            </div>
+            <div class="fi" id="f4">
+                <img src="https://thumbs.dreamstime.com/b/fresh-strawberry-white-background-40742985.jpg">
+                <h4>STRAWBERRY</h3>
+                <h4>price:100/kg</h4>
+                <h4>Quantity: 1kg</h4>
+                <label for="strawberry"><h4>quantity</h4></label>
+               <input name="strawberry" type="number" min="0" id="fr4">
+            </div>
+            <div class="fi" id="f5">
+                <img src="https://media.istockphoto.com/photos/orange-picture-id185284489?k=20&m=185284489&s=612x612&w=0&h=LLY2os0YTG2uAzpBKpQZOAC4DGiXBt1jJrltErTJTKI=">
+                <h4>ORANGE</h3>
+                <h4>price:35/kg</h4>
+                <h4>Quantity: 1kg</h4>
+                <label for="orange"><h4>quantity</h4></label>
+               <input name="orange" type="number" min="0" id="fr5">
+            </div>
+            <div class="fi" id="f6">
+                <img src="https://media.istockphoto.com/photos/whole-and-slices-watermelon-fruit-isolated-on-white-background-picture-id1142119394">
+                <h4>WATERMELON</h3>
+                <h4>price:35/kg</h4>
+                <h4>Quantity: 1kg</h4>
+                <label for="watermelon"><h4>quantity</h4></label>
+               <input name="watermelon" type="number" min="0" id="fr6">
+            </div>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+       </div>
+
+
+
+
+        <div class="vegetables-heading">
+            <h1 >VEGETABLES</h1>
+        </div>
+       <div class="vegetables" id="vegetables_section">
+        <div class="vi" id="v1" >
+            <img src="https://media.istockphoto.com/photos/tomatoes-isolate-on-white-background-tomato-half-isolated-tomatoes-picture-id1258142863?b=1&k=20&m=1258142863&s=170667a&w=0&h=iFVeHatKRUPjoAd2YR1Lgjv_74tZ-gTBbT3cOqFy0BI=">
+            <h4>tomato</h3>
+            <h4>price:20/kg</h4>
+            <h4>Quantity: 1kg</h4>
+            <label for="tomato"><h4>quantity</h4></label>
+            <input name="tomato" type="number" min="0" id="vg1">
+
+        </div>
+        <div class="vi" id="v2">
+             <img src="https://media.istockphoto.com/photos/three-potatoes-picture-id157430678?k=20&m=157430678&s=612x612&w=0&h=dfYLuPYwA50ojI90hZ4jCgKZd5TGnqf24UCVBszoZIA=">
+             <h4>POTATO</h3>
+             <h4>price:80/kg</h4>
+             <h4>Quantity: 1kg</h4>
+             <label for="potato"><h4>quantity</h4></label>
+             <input name="potato" type="number" min="0" id="vg2">
+        </div>
+        <div class="vi" id="v3">
+             <img src="https://m.media-amazon.com/images/I/710TY8GGGqL._SX679_.jpg">
+             <h4>BEETROOT</h3>
+             <h4>price:35/kg</h4>
+             <h4>Quantity: 1kg</h4>
+             <label for="beetroot"><h4>quantity</h4></label>
+            <input name="beetroot" type="number" min="0" id="vg3">
+         </div>
+         <div class="vi" id="v4">
+             <img src="https://image.shutterstock.com/image-photo/red-whole-sliced-onion-isolated-260nw-1684863088.jpg">
+             <h4>ONION</h3>
+             <h4>price:25/kg</h4>
+             <h4>Quantity: 1kg</h4>
+             <label for="onion"><h4>quantity</h4></label>
+            <input name="onion" type="number" min="0" id="vg4">
+         </div>
+         <div class="vi" id="v5">
+             <img src="https://www.jiomart.com/images/product/600x600/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg">
+             <h4>CHILLI</h3>
+             <h4>price:35/kg</h4>
+             <h4>Quantity: 1kg</h4>
+             <label for="chilli"><h4>quantity</h4></label>
+            <input name="chilli" type="number" min="0" id="vg5">
+         </div>
+         <div class="vi" id="v6">
+             <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/02/pumpkin-3f3d894.jpg?quality=90&resize=661%2C600">
+             <h4>PUMPKIN</h3>
+             <h4>price:35/kg</h4>
+             <h4>Quantity: 1kg</h4>
+             <label for="pumpkin"><h4>quantity</h4></label>
+            <input name="pumpkin" type="number" min="0" id="vg6">
+         </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+
+
+
+    <div class="dairy-heading">
+        <h1 >DAIRY PRODUCTS</h1>
+    </div>
+   <div class="dairy" id="dairy_section">
+    <div class="di" id="d1" >
+        <img src="https://www.thoughtco.com/thmb/EUf0ZppPvqkntCcsHWAwd-I-Og4=/3601x2701/smart/filters:no_upscale()/glass-of-milk-pouring-87984584-593d45d33df78c537b632490.jpg">
+        <h4>MILK</h3>
+        <h4>price:120/lit</h4>
+        <h4>Quantity: 1lit</h4>
+        <label for="milk"><h4>quantity</h4></label>
+        <input name="milk" type="number" min="0" id="da1">
+    </div>
+    <div class="di" id="d2">
+         <img src="https://thumbs.dreamstime.com/b/butter-13072936.jpg">
+         <h4>BUTTER</h3>
+         <h4>price:60/kg</h4>
+         <h4>Quantity: 1kg</h4>
+         <label for="butter"><h4>quantity</h4></label>
+         <input name="butter" type="number" min="0" id="da2">
+    </div>
+    <div class="di" id="d3">
+         <img src="https://media.istockphoto.com/photos/cutting-paneer-into-pieces-picture-id464765760?k=20&m=464765760&s=612x612&w=0&h=_0wU3XG-HkUOjn0mRdSInTs2WWMSYUQIZBIcWFszA_U=">
+         <h4>PANNER</h3>
+         <h4>price:350/kg</h4>
+         <h4>Quantity: 1kg</h4>
+         <label for="panner"><h4>quantity</h4></label>
+         <input name="panner" type="number" min="0" id="da3">
+     </div>
+     <div class="di" id="d4">
+         <img src="https://media.istockphoto.com/photos/almond-milk-wood-background-picture-id1272353187?k=20&m=1272353187&s=612x612&w=0&h=pUUXDCE36z6Y7vY__2Ih_bVfYD5eHtTbkMFKNygHBF4=">
+         <h4>ALMOND MILK</h3>
+         <h4>price:100/lit</h4>
+         <h4>Quantity: 1lit</h4>
+         <label for="almond_milk"><h4>quantity</h4></label>
+         <input name="almond_milk" type="number" min="0" id="da4">
+     </div>
+     <div class="di" id="d5">
+         <img src="https://media.istockphoto.com/photos/cheese-on-white-picture-id1127471287">
+         <h4>CHEESE</h3>
+         <h4>price:35/kg</h4>
+         <h4>Quantity: 1kg</h4>
+         <label for="cheese"><h4>quantity</h4></label>
+         <input name="cheese" type="number" min="0" id="da5">
+     </div>
+     <div class="di" id="d6">
+         <img src="https://joyfoodsunshine.com/wp-content/uploads/2020/06/homemade-chocolate-ice-cream-recipe-7.jpg">
+         <h4>ICECREAM</h3>
+         <h4>price:35/pc</h4>
+         <h4>Quantity: 1pc</h4>
+         <label for="icecream"><h4>quantity</h4></label>
+         <input name="icecream" type="number" min="0" id="da6">
+     </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+
+<div class="packaged-heading">
+    <h1 >PACKAGED PRODUCTS</h1>
+</div>
+<div class="packaged" id="packaged_section">
+<div class="pi" id="p1" >
+    <img src="https://media.istockphoto.com/photos/jar-of-honey-with-honeycomb-picture-id520733611?k=20&m=520733611&s=612x612&w=0&h=bEtg2Pykf6cLHGckYZq5Ej0zp82F05E0haIDjDTsCwg=">
+    <h4>HONEY</h3>
+    <h4>price:120/kg</h4>
+    <h4>Quantity: 1kg</h4>
+    <label for="honey"><h4>quantity</h4></label>
+    <input name="honey" type="number" min="0" id="pa1">
+</div>
+<div class="pi" id="p2">
+     <img src="https://m.media-amazon.com/images/I/715YUp1iPKL._SX522_.jpg">
+     <h4>LAYS</h3>
+     <h4>price:60/pc</h4>
+     <h4>Quantity: 1kpc</h4>
+     <label for="lays"><h4>quantity</h4></label>
+    <input name="lays" type="number" min="0" id="pa2">
+</div>
+<div class="pi" id="p3">
+     <img src="https://m.media-amazon.com/images/I/71ggrz8FVgL._SL1500_.jpg">
+     <h4>KURKURE</h3>
+     <h4>price:35/pc</h4>
+     <h4>Quantity: 1pc</h4>
+     <label for="kurkure"><h4>quantity</h4></label>
+    <input name="kurkure" type="number" min="0" id="pa3">
+ </div>
+ <div class="pi" id="p4">
+     <img src="https://media.istockphoto.com/photos/coke-picture-id458464735?k=20&m=458464735&s=612x612&w=0&h=CW8rzEiIMvuO23X9I3b6U_g2aBUQSZnWYLjWauLMxtg=">
+     <h4>COKE</h3>
+     <h4>price:100/pc</h4>
+     <h4>Quantity:1pc</h4>
+     <label for="coke"><h4>quantity</h4></label>
+    <input name="coke" type="number" min="0" id="pa4">
+ </div>
+ <div class="pi" id="p5">
+     <img src="https://c8.alamy.com/comp/FAK4XJ/packet-of-chocolate-creme-oreo-biscuits-opened-to-show-contents-set-FAK4XJ.jpg">
+     <h4>OREO</h3>
+     <h4>price:35/pc</h4>
+     <h4>Quantity: 1pc</h4>
+     <label for="oreo"><h4>quantity</h4></label>
+    <input name="oreo" type="number" min="0" id="pa5">
+ </div>
+ <div class="pi" id="p6">
+     <img src="https://www.jiomart.com/images/product/600x600/491551860/snac-tac-strawberry-wafers-75-g-product-images-o491551860-p491551860-0-202203142041.jpg">
+     <h4>WAFFERS</h3>
+     <h4>price:35/pc</h4>
+     <h4>Quantity: 1pc</h4>
+     <label for="waffer"><h4>quantity</h4></label>
+     <input name="waffer" type="number" min="0" id="pa6">
+ </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</div>
+    <div class="cart" id="cart">
+        <table>
+            <tr>
+                <th>name/item</th>
+                <th>price/kg or price/pac</th>
+                <th>quantity</th>
+                <th>cost</th>
+            </tr>
+            <tr>
+                <td>Apples</td>
+                <td>120</td>
+                <td id="f1q"></td>
+                <td id="f1c"></td>
+            </tr>
+            <tr>
+                <td>grapes</td>
+                <td>60</td>
+                <td id="f2q"></td>
+                <td id="f2c"></td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>35</td>
+                <td id="f3q"></td>
+                <td id="f3c"></td>
+            </tr>
+            <tr>
+                <td>strawberry</td>
+                <td>100</td>
+                <td id="f4q"></td>
+                <td id="f4c"></td>
+            </tr>
+            <tr>
+                <td>orange</td>
+                <td>35</td>
+                <td id="f5q"></td>
+                <td id="f5c"></td>
+            </tr>
+            <tr>
+                <td>watermelon</td>
+                <td>35</td>
+                <td id="f6q"></td>
+                <td id="f6c"></td>
+            </tr>
+            <tr>
+                <td>tomato</td>
+                <td>20</td>
+                <td id="v1q"></td>
+                <td id="v1c"></td>
+            </tr>
+            <tr>
+                <td>potato</td>
+                <td>80</td>
+                <td id="v2q"></td>
+                <td id="v2c"></td>
+            </tr>
+            <tr>
+                <td>beetroot</td>
+                <td>35</td>
+                <td id="v3q"></td>
+                <td id="v3c"></td>
+            </tr>
+            <tr>
+                <td>onion</td>
+                <td>25</td>
+                <td id="v4q"></td>
+                <td id="v4c"></td>
+            </tr>
+            <tr>
+                <td>chilli</td>
+                <td>35</td>
+                <td id="v5q"></td>
+                <td id="v5c"></td>
+            </tr>
+            <tr>
+                <td>pumpkin</td>
+                <td>35</td>
+                <td id="v6q"></td>
+                <td id="v6c"></td>
+            </tr>
+
+            <tr>
+                <td>milk</td>
+                <td>120</td>
+                <td id="d1q"></td>
+                <td id="d1c"></td>
+            </tr>
+            <tr>
+                <td>butter</td>
+                <td>60</td>
+                <td id="d2q"></td>
+                <td id="d2c"></td>
+            </tr>
+            <tr>
+                <td>panner</td>
+                <td>350</td>
+                <td id="d3q"></td>
+                <td id="d3c"></td>
+            </tr>
+
+            <tr>
+                <td>almond milk</td>
+                <td>100</td>
+                <td id="d4q"></td>
+                <td id="d4c"></td>
+            </tr>
+            <tr>
+                <td>cheese</td>
+                <td>35</td>
+                <td id="d5q"></td>
+                <td id="d5c"></td>
+            </tr>
+            <tr>
+                <td>icecream</td>
+                <td>35</td>
+                <td id="d6q"></td>
+                <td id="d6c"></td>
+            </tr>
+            <tr>
+                <td>honey</td>
+                <td>120</td>
+                <td id="p1q"></td>
+                <td id="p1c"></td>
+            </tr>
+            <tr>
+                <td>lays</td>
+                <td>35</td>
+                <td id="p2q"></td>
+                <td id="p2c"></td>
+            </tr>
+            <tr>
+                <td>kurkure</td>
+                <td>35</td>
+                <td id="p3q"></td>
+                <td id="p3c"></td>
+            </tr>
+            <tr>
+                <td>coke</td>
+                <td>100</td>
+                <td id="p4q"></td>
+                <td id="p4c"></td>
+            </tr>
+            <tr>
+                <td>oreo</td>
+                <td>35</td>
+                <td id="p5q"></td>
+                <td id="p5c"></td>
+            </tr>
+            <tr>
+                <td>waffers</td>
+                <td>35</td>
+                <td id="p6q"></td>
+                <td id="p6c"></td>
+            </tr>
+        </table>
+        <p>total = <spann id="total_value"></spann></p>
+        <label for="name">enter your name</label>
+        <input type="text" id="name" placeholder="name" name="name">
+        <label for="address">address:</label>
+        <input type="text" id="addr" placeholder="address" name="address">
+        <br><br><br>
+        <button onclick="checkout()">checkout</button>
+        <button onclick="closecart()">close</button>
+
+
+
+    </div>
+
+
+
+       
+
+
+    </body>
+</html>
